@@ -68,7 +68,9 @@ namespace TitanicWebService.Controllers
                 pass.Alder = 34;
                 pass.Kjoenn = "Kvinne";
                 pass.Klasse = "Klasse1";
-
+                  MLWrapper wrap = new MLWrapper()
+                    var sannsynlighet = wrap.GetTelthy(pass.Klasse, pass.Kjoenn, Int.Parse(pass.Alder), pass.Avreisested).Lehtability.ToString("f2");
+                pass.s
                 best.Passasjerer[0] = pass;
                 return best;
             }
