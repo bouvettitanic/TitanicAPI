@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="TitanicWebService.Global" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="Titanic_Web_Api.Global" Language="C#" %>

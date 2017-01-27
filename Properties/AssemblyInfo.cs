@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TitanicWebService")]
+[assembly: AssemblyTitle("Titanic_Web_Api")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("TitanicWebService")]
+[assembly: AssemblyProduct("Titanic_Web_Api")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("2b5d303d-df0d-4998-915e-1bbec8a16d87")]
+[assembly: Guid("0e6bdd79-db75-47bb-a5a0-b1bb4e0b3dba")]
 
 // Version information for an assembly consists of the following four values:
 //

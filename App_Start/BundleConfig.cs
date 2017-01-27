@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Optimization;
 using System.Web.UI;
 
-namespace TitanicWebService
+namespace Titanic_Web_Api
 {
     public class BundleConfig
     {

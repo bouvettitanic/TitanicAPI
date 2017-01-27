@@ -7,7 +7,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using Microsoft.AspNet.FriendlyUrls.Resolvers;
 
-namespace TitanicWebService
+namespace Titanic_Web_Api
 {
     public partial class ViewSwitcher : System.Web.UI.UserControl
     {

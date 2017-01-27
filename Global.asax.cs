@@ -9,7 +9,7 @@ using System.Web.Security;
 using System.Web.SessionState;
 using System.Web.Http;
 
-namespace TitanicWebService
+namespace Titanic_Web_Api
 {
     public class Global : HttpApplication
     {

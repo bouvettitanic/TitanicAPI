@@ -7,8 +7,7 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
-
-namespace TestML
+namespace Titanic_Web_Api.Controllers
 {
     public class Value
     {

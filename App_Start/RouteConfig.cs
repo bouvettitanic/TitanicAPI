@@ -5,7 +5,7 @@ using System.Web.Mvc;
 using System.Web.Routing;
 using Microsoft.AspNet.FriendlyUrls;
 
-namespace TitanicWebService
+namespace Titanic_Web_Api
 {
     public static class RouteConfig
     {

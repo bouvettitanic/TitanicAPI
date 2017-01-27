@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 
-namespace TitanicWebService
+namespace Titanic_Web_Api
 {
     public static class WebApiConfig
     {

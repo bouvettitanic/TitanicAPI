@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace TitanicWebService
+namespace Titanic_Web_Api
 {
     public partial class Site_Mobile : System.Web.UI.MasterPage
     {

@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TitanicWebService {
+namespace Titanic_Web_Api {
     
     
     public partial class ViewSwitcher {

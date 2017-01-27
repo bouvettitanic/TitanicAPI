@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{D803150A-A42A-4B43-964B-2068035DC774}</ProjectGuid>
+    <ProjectGuid>{2FE252BE-C8E8-414B-ACF4-82C8E3FCFC59}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TitanicWebService</RootNamespace>
-    <AssemblyName>TitanicWebService</AssemblyName>
+    <RootNamespace>Titanic_Web_Api</RootNamespace>
+    <AssemblyName>Titanic Web Api</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -208,10 +208,8 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Controllers\Bestilling.cs" />
-    <Compile Include="Controllers\BestillingController.cs" />
-    <Compile Include="Controllers\Passasjer.cs" />
-    <Compile Include="Controllers\Sannsynlighet.cs" />
+    <Compile Include="Controllers\MLWrapper.cs" />
+    <Compile Include="Controllers\SannsynlighetsController.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -237,7 +235,6 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
-    <Compile Include="SQLUtil.cs" />
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -263,9 +260,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>54122</DevelopmentServerPort>
+          <DevelopmentServerPort>59185</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:54106/</IISUrl>
+          <IISUrl>http://localhost:59185/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
