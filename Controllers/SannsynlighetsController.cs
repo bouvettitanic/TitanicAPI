@@ -9,13 +9,15 @@ namespace Titanic_Web_Api.Controllers
 {
     public class SannsynlighetsController : ApiController
     {
-        public string Get(string klasse, string kjoenn, int alder, string avreisested)
+        [HttpGet]
+        [Route("api/sant")]
+        public dynamic Get(string klasse, string kjoenn, int alder, string avreisested)
         {
             try
             {
                 MLWrapper wrap = new MLWrapper();
                 var sannsynlighet = wrap.GetTelthy(klasse, kjoenn, alder, avreisested).Lehtability.ToString("f2");
-                return sannsynlighet;
+                return new { probabilityForGruesomeAndAwefulDeath = sannsynlighet };
             }
             catch (Exception e)
             {
@@ -27,5 +29,9 @@ namespace Titanic_Web_Api.Controllers
                 throw new HttpResponseException(resp);
             }
         }
+    }
+    public class AnAnswer
+    {
+        public string Answer { get; set; }
     }
 }

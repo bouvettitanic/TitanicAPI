@@ -20,6 +20,10 @@ namespace Titanic_Web_Api
             GlobalConfiguration.Configure(WebApiConfig.Register);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            var formatters = GlobalConfiguration.Configuration.Formatters;
+
+            formatters.Remove(formatters.XmlFormatter);
+
         }
     }
 }

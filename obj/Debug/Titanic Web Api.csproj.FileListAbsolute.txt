@@ -35,3 +35,4 @@ C:\Source\Titanic Web Api\Titanic Web Api\obj\Debug\Titanic Web Api.dll
 C:\Source\Titanic Web Api\Titanic Web Api\obj\Debug\Titanic Web Api.pdb
 C:\Source\Titanic Web Api\Titanic Web Api\bin\System.Web.Mvc.dll
 C:\Source\Titanic Web Api\Titanic Web Api\bin\System.Web.Mvc.xml
+C:\Source\Titanic Web Api\Titanic Web Api\obj\Debug\Titanic Web Api.csprojResolveAssemblyReference.cache
